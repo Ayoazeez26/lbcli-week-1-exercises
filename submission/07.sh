@@ -1,4 +1,2 @@
 # Generate a P2SH address.
-   ```sh
-   bitcoin-cli getnewaddress "" "p2sh-segwit"
-  ```
+  bitcoin-cli -regtest getnewaddress "" "p2sh-segwit"

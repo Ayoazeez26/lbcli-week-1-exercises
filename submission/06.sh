@@ -1,4 +1,2 @@
 # Generate a legacy address.
-   ```sh
-   bitcoin-cli getnewaddress "" "legacy"
-  ```
+  bitcoin-cli -regtest getnewaddress "" "legacy"
